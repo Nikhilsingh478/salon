@@ -343,11 +343,11 @@ body {
   color: var(--color-darkbrown);
 }
 
-.spa-card-container {
+.salon-card-container {
   perspective: 1000px;
 }
 
-.spa-card {
+.salon-card {
   transform-style: preserve-3d;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   height: 520px;
@@ -355,29 +355,29 @@ body {
   flex-direction: column;
 }
 
-.spa-card:hover {
+.salon-card:hover {
   transform: translateY(-8px);
 }
 
-.spa-card-image {
+.salon-card-image {
   transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.spa-card:hover .spa-card-image {
+.salon-card:hover .salon-card-image {
   transform: scale(1.1);
 }
 
-.spa-card-glow {
+.salon-card-glow {
   background: linear-gradient(135deg, rgba(245, 205, 143, 0.3) 0%, transparent 50%, rgba(189, 175, 113, 0.3) 100%);
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
-.spa-card:hover .spa-card-glow {
+.salon-card:hover .salon-card-glow {
   opacity: 1;
 }
 
-.spa-card-content {
+.salon-card-content {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -767,8 +767,8 @@ footer {
   font-weight: 600;
 }
 
-/* SPA text styling */
-.spa-text {
+/* Salon text styling */
+.salon-text {
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
   font-weight: 800;
@@ -886,7 +886,7 @@ footer {
     gap: 0.75rem;
   }
 
-  .spa-text {
+  .salon-text {
     font-size: 2.5rem;
   }
 
@@ -926,7 +926,7 @@ footer {
     padding: 1.5rem;
   }
 
-  .spa-text {
+  .salon-text {
     font-size: 2rem;
   }
 
@@ -1043,7 +1043,7 @@ footer {
     justify-content: center;
 }
 
-.spa-form {
+.salon-form {
     max-width: 600px;
     width: 100%;
     background: rgba(255,255,255,0.12);
@@ -1055,7 +1055,7 @@ footer {
 }
 
 /* Glass Inputs */
-.spa-input, .spa-textarea {
+.salon-input, .salon-textarea {
     width: 100%;
     padding: 14px;
     margin: 10px 0 22px;
@@ -1069,13 +1069,13 @@ footer {
 }
 
 /* Placeholder color */
-.spa-input::placeholder,
-.spa-textarea::placeholder {
+.salon-input::placeholder,
+.salon-textarea::placeholder {
     color: #333;
 }
 
 /* Button */
-.spa-btn {
+.salon-btn {
     width: 100%;
     padding: 15px;
     border: none;
@@ -1088,7 +1088,7 @@ footer {
     transition: 0.3s;
 }
 
-.spa-btn:hover {
+.salon-btn:hover {
     transform: scale(1.02);
 }
 
@@ -1120,7 +1120,7 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-    .spa-form {
+    .salon-form {
         padding: 25px;
         border-radius: 18px;
     }

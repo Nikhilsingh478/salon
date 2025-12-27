@@ -152,7 +152,7 @@ if (localStorage.getItem("darkMode") === "true") {
 document.addEventListener("keydown", function (e) {
   if (
     (e.key === "Enter" || e.key === " ") &&
-    e.target.classList.contains("spa-card")
+    e.target.classList.contains("salon-card")
   ) {
     e.preventDefault();
     const button = e.target.querySelector(".book-btn");
@@ -163,7 +163,7 @@ document.addEventListener("keydown", function (e) {
 });
 
 // Add enhanced shadow effects on hover
-document.querySelectorAll(".spa-card").forEach((card) => {
+document.querySelectorAll(".salon-card").forEach((card) => {
   card.addEventListener("mouseenter", function () {
     this.style.boxShadow = "0 25px 50px rgba(189, 175, 113, 0.4)";
   });
@@ -297,7 +297,7 @@ if (aboutSection) {
         // Contact Form Logic (Keep this near the form if it uses emailjs)
         const popup1 = document.getElementById("popupSuccess");
 
-        document.getElementById("spaContactForm").addEventListener("submit", function (e) {
+        document.getElementById("salonContactForm").addEventListener("submit", function (e) {
             e.preventDefault();
 
             emailjs.sendForm("service_5qc1eig", "template_f6c99wi", this)

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Premium Gallery | Tuned Spacing</title>
+    <title>Premium Gallery | Name Salon</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -287,40 +287,43 @@
             <!-- MAIN COLLAGE ITEMS -->
             <figure class="gallery-item item1" data-tilt>
                 <div class="inner">
-                    <img loading="lazy" src="https://i.pinimg.com/1200x/09/79/7c/09797cccaa697146f49cacc00a5456ac.jpg"
-                        alt="Nature Photography">
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+                        alt="Salon Interior">
                 </div>
-                <div class="gallery-caption">SERENITY</div>
+                <div class="gallery-caption">STYLE</div>
             </figure>
 
             <figure class="gallery-item item2" data-tilt>
                 <div class="inner">
-                    <img loading="lazy" src="https://i.pinimg.com/1200x/8f/db/38/8fdb38ec75085592e654b36e27c5b27b.jpg"
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1521590832169-be585d852077?auto=format&fit=crop&w=800&q=80"
                         alt="Portrait Photography">
                 </div>
-                <div class="gallery-caption">ESSENCE</div>
+                <div class="gallery-caption">GLAMOUR</div>
             </figure>
 
             <figure class="gallery-item item3" data-tilt>
                 <div class="inner">
                     <img loading="lazy"
-                        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80"
-                        alt="Landscape Photography">
+                        src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80"
+                        alt="Hair Styling">
                 </div>
-                <div class="gallery-caption">ETERNITY</div>
+                <div class="gallery-caption">PRECISION</div>
             </figure>
 
             <figure class="gallery-item item4" data-tilt>
                 <div class="inner">
-                    <img loading="lazy" src="https://i.pinimg.com/1200x/79/56/62/7956623eb5107a96653b49828eebf2ae.jpg"
-                        alt="Urban Photography">
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80"
+                        alt="Salon Tools">
                 </div>
-                <div class="gallery-caption">URBANITE</div>
+                <div class="gallery-caption">LUXURY</div>
             </figure>
 
             <!-- TITLE BLOCK (desktop only) -->
             <div class="title-block select-none">
-                <div id="spaTitle" class="title">SPA NAME</div>
+                <div id="salonTitle" class="title">NAME SALON</div>
             </div>
         </div>
     </div>
@@ -351,9 +354,9 @@
                 });
             }
 
-            // Auto-fit SPA NAME (centered block)
+            // Auto-fit NAME SALON (centered block)
             const titleBlock = document.querySelector('.title-block');
-            const titleEl = document.getElementById('spaTitle');
+            const titleEl = document.getElementById('salonTitle');
 
             function fitTitle() {
                 if (!titleBlock) return;
